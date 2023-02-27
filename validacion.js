@@ -1,6 +1,7 @@
 var ancho = screen.width;
 const cursor = document.querySelector(".cursor")
 const cursor2 = document.querySelector(".cursor2")
+const circularButton = document.querySelector('.circular-button')
 
 var anx = 0;
 var aly = 0;
@@ -35,6 +36,11 @@ function agra2(ancho){
     cursor.classList.remove('cur');
     cursor2.classList.remove('cur2');
 }
+
+
+circularButton.addEventListener('click', e=>{
+	location.href = "usuario.html";
+});
 
 
 //-----no se si se pueda usar jquery o ed3 así que voy a hacer funciones para programar más rápido en js puro
