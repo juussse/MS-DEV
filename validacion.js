@@ -138,7 +138,7 @@ function subir(
 				  };
 				}
 				if (confirm("Confirma que ha validado los datos y desea continuar")) {
-					location.href = "html/Sistema.html";
+					location.href = "Sistema.html";
 				}
 			  } else {
 				console.log(`Error: ${xhr.status}`);
